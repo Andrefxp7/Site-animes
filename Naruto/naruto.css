@@ -9,7 +9,7 @@
 @font-face {
 
     font-family: 'Japones';
-    src: url('Fontes/go3v2.ttf') format('truetype');
+    src: url('../Fontes/go3v2.ttf') format('truetype');
     font-weight: normal;
 
 }
@@ -17,7 +17,7 @@
 @font-face {
 
     font-family: 'escrita';
-    src: url('Fontes/Butter.otf') format('opentype');
+    src: url('../Fontes/Butter.otf') format('opentype');
     font-weight: normal;
 
 }
@@ -25,7 +25,7 @@
 @font-face {
 
     font-family: 'Festa';
-    src: url('Fontes/Glossy\ Sheen\ Shine\ DEMO.ttf') format('truetype');
+    src: url('../Fontes/Glossy\ Sheen\ Shine\ DEMO.ttf') format('truetype');
     font-weight: normal;
 
 }
@@ -33,8 +33,8 @@
 :root{
 
     --cor1: #BF49F2;
-    --cor2: #A800F0;
-    --cor3: #592270;
+    --cor2: #ff5e00bd;
+    --cor3: #ff9050;
     --cor4: #4F0070;
     --cor5: #000000;
     --cor6: white;
@@ -49,7 +49,7 @@
 body{
 
     font-family: var(--font-padrão);
-    background-color: #cca0df;
+    
 }
 
 header{
@@ -67,20 +67,22 @@ header > h1{
 
 }
 
-header > p{
-
-    font-family: var(--font-paragrafos);
-    color: var(--cor6);
-    text-align: center;
-    padding-bottom: 15px;
-
-}
-
 nav{
 
     background-color: var(--cor4);
     padding-bottom: 10px;
     
+}
+
+nav > a > button{
+
+   background-color: #ff9050;
+   color:var(--cor5);
+   padding-right: 5px;
+   padding-left: 5px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+
 }
 
 nav > a{
@@ -101,7 +103,7 @@ article{
 
 article > h2{
 
-    color: var(--cor1);
+    color: var(--cor2);
     font-family:var(--font-titulo2);
     text-align: center;
     padding-top: 10px;
@@ -123,21 +125,25 @@ article > p{
 
 strong{
 
-    color: var(--cor1);
+    color: var(--cor3);
+
 }
 
-div{
+.sasuke{
 
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: var(--cor4);
-   
+    color: #2323c5;
+
 }
-   
+
+.sakura{
+
+    color: #bf35c4;
+
+}
+
 footer{
 
-    background-color: #000000;
+    background-color: var(--cor5);
     text-align: center;
     padding: 10px;
 }
@@ -155,18 +161,61 @@ a{
 
     color: var(--cor6);
     text-decoration: none;
+    
+}
+
+nav > a{
+
+    font-family: var(--font-paragrafos);
+    font-size: 20px;
 
 }
 
 a:hover{
 
-    color: var(--cor1);
+    color: rgb(25, 226, 25);
 
+}
+
+abbr{
+
+    text-decoration: none;
+    
 }
 
 p{
 
     color: var(--cor6);
     padding-bottom: 5px;
+
+}
+
+div{
+
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #da5b12;
+   
+}
+
+div > p{
+
+    color: var(--cor6);
+    padding-bottom: 20px;
+
+}
+
+div > ul > li{
+
+    color: var(--cor6);
+    padding-bottom: 5px;
+    
+    
+}
+
+div > ul{
+
+    padding-left: 10px;
 
 }
