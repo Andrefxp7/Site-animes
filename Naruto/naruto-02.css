@@ -107,6 +107,16 @@ article{
 
 }
 
+article > h1{
+
+    font-family: var(--font-titulo2);
+    font-size: 40px;
+    color: var(--cor2);
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
 article > h2{
 
     color: var(--cor2);
@@ -143,18 +153,6 @@ article > p > a > button{
 strong{
 
     color: var(--cor3);
-
-}
-
-.sasuke{
-
-    color: #2323c5;
-
-}
-
-.sakura{
-
-    color: #bf35c4;
 
 }
 
