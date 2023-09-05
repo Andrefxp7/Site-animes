@@ -52,6 +52,7 @@ body{
     background-color: #cca0df;
 }
 
+
 header{
 
     background-color: var(--cor4);
@@ -95,6 +96,8 @@ nav > a{
 article{
     
     background-color:var(--cor5);
+    max-width: 800px;
+    min-width: 280px;
     margin: auto;
 
 }
@@ -160,7 +163,7 @@ a{
 
 a:hover{
 
-    color: var(--cor1);
+    color: rgb(25, 226, 25);
 
 }
 

@@ -49,6 +49,7 @@
 body{
 
     font-family: var(--font-padrão);
+    background-color: #ecad88;
     
 }
 
@@ -104,6 +105,8 @@ article{
     
     background-color:var(--cor5);
     margin: auto;
+    max-width: 800px;
+    min-width: 280px;
 
 }
 
@@ -211,6 +214,9 @@ div{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #da5b12;
+    max-width: 800px;
+    min-width: 280px;
+    margin: auto;
    
 }
 
